@@ -25,6 +25,13 @@ export default function Services() {
           Saya dapat membangun dan mengembangkan website menggunakan teknologi modern.
         </p>
       </div>
+          <Link
+  href="/"
+  className="mt-6 px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg shadow-md transition duration-300"
+>
+  Kembali ke Beranda
+</Link>
+
     </section>
   );
 }
