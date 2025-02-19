@@ -16,6 +16,14 @@ export default function Contact() {
         Email: <a href="mailto:yp0363@gmail.com" className="text-blue-400">yp0363@gmail.com</a> |
         WhatsApp: <a href="https://wa.me/08123456789" className="text-green-400">08123456789</a>
       </p>
+
+          <Link
+  href="/"
+  className="mt-6 px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg shadow-md transition duration-300"
+>
+  Kembali ke Beranda
+</Link>
+
     </section>
   );
 }
