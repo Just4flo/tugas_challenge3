@@ -4,7 +4,7 @@ export default function About() {
       id="about"
       className="w-full min-h-screen bg-black text-white text-center flex flex-col items-center justify-center p-10"
     >
-      <h1 className="text-3xl font-bold">About Page</h1>
+      
       <img
         src="/profile.jpg"
         alt="Profile"
