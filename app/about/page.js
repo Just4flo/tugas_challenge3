@@ -1,10 +1,11 @@
+import Link from "next/link";
+
 export default function About() {
   return (
     <section
       id="about"
       className="w-full min-h-screen bg-black text-white text-center flex flex-col items-center justify-center p-10"
     >
-      
       <img
         src="/profile.jpg"
         alt="Profile"
@@ -16,6 +17,11 @@ export default function About() {
         Perkenalkan nama saya Yudha Purnama, saya berasal dari Garut, dan saya
         adalah mahasiswa semester 4 di Universitas Masoem.
       </p>
+
+      {/* Link untuk kembali ke halaman utama */}
+      <Link href="/" className="mt-4 text-blue-400 underline">
+        Kembali ke Beranda
+      </Link>
     </section>
   );
 }
